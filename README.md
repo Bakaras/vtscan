@@ -19,6 +19,7 @@ mkdir /etc/vtscan
 cp vtscan.cfg /etc/vtscan/.
 ```
 
+adjust settngs in vtscan.cfg
 
 
 To use with amavis add lines to /etc/amavis/conf.d/15-av_scanners:
