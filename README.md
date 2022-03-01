@@ -19,7 +19,7 @@ mkdir /etc/vtscan
 cp vtscan.cfg /etc/vtscan/.
 ```
 
-adjust settngs in vtscan.cfg
+adjust settngs in vtscan.cfg:
 
 create $QUARANTINEDIR and $CACHEDIR directories.
 
