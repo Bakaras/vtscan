@@ -1,5 +1,5 @@
 # vtscan
-Virustotal (virustotal.com) integration for amavisd-new.
+Virustotal (virustotal.com) integration for amavis.
 
 vtscan is a bash script to include Virustotal as an amavisd-new virus scanner by using the Virustotal Public API.
 
