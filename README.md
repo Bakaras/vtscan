@@ -21,6 +21,7 @@ cp vtscan.cfg /etc/vtscan/.
 
 adjust settngs in vtscan.cfg
 
+create $QUARANTINEDIR and $CACHEDIR directories.
 
 To use with amavis add lines to /etc/amavis/conf.d/15-av_scanners:
 
