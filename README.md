@@ -32,7 +32,7 @@ To use with amavis add lines to /etc/amavis/conf.d/15-av_scanners:
 qr/(?:Virus found|Detected as) (.+)/m ],
 ```
 
-To make the test with the eicar.com,
+To make detection test with the eicar.com,
 add the following to /etc/magic:
 ```
 0	search/128	EICAR-STANDARD-ANTIVIRUS	Eicar test file
