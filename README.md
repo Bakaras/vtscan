@@ -19,11 +19,11 @@ mkdir /etc/vtscan
 cp vtscan.cfg /etc/vtscan/.
 ```
 
-adjust settngs in vtscan.cfg:
+adjust settings in vtscan.cfg:
 
 create $QUARANTINEDIR and $CACHEDIR directories.
 
-To use with amavis add lines to /etc/amavis/conf.d/15-av_scanners:
+To use with amavis, add lines to /etc/amavis/conf.d/15-av_scanners:
 
 ```
 ['VirusTotal', 'vtscan.sh',
@@ -32,7 +32,7 @@ To use with amavis add lines to /etc/amavis/conf.d/15-av_scanners:
 qr/(?:Virus found|Detected as) (.+)/m ],
 ```
 
-To make possible detection test with eicar.com
+In order to make a detection test possible with eicar.com,
 add the following to /etc/magic:
 ```
 0	search/128	EICAR-STANDARD-ANTIVIRUS	Eicar test file
